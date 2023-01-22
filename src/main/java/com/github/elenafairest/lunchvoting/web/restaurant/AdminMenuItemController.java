@@ -1,4 +1,4 @@
-package com.github.elenafairest.lunchvoting.web.menuItem;
+package com.github.elenafairest.lunchvoting.web.restaurant;
 
 import com.github.elenafairest.lunchvoting.model.MenuItem;
 import com.github.elenafairest.lunchvoting.repository.MenuItemRepository;

@@ -1,10 +1,9 @@
-package com.github.elenafairest.lunchvoting.web.menuItem;
+package com.github.elenafairest.lunchvoting.web.restaurant;
 
 import com.github.elenafairest.lunchvoting.model.MenuItem;
 import com.github.elenafairest.lunchvoting.repository.MenuItemRepository;
 import com.github.elenafairest.lunchvoting.util.JsonUtil;
 import com.github.elenafairest.lunchvoting.web.AbstractControllerTest;
-import com.github.elenafairest.lunchvoting.web.restaurant.RestaurantTestData;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -17,8 +16,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDate;
 import java.util.List;
 
-import static com.github.elenafairest.lunchvoting.web.menuItem.AdminMenuItemController.URL;
-import static com.github.elenafairest.lunchvoting.web.menuItem.MenuItemTestData.*;
+import static com.github.elenafairest.lunchvoting.web.restaurant.AdminMenuItemController.URL;
+import static com.github.elenafairest.lunchvoting.web.restaurant.MenuItemTestData.*;
 import static com.github.elenafairest.lunchvoting.web.restaurant.RestaurantTestData.KAKAO_MAMA_ID;
 import static com.github.elenafairest.lunchvoting.web.restaurant.RestaurantTestData.OLIVKA_ID;
 import static com.github.elenafairest.lunchvoting.web.user.UserTestData.ADMIN_MAIL;

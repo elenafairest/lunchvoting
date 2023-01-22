@@ -15,7 +15,7 @@ public class MenuItemService {
     private final RestaurantRepository restaurantRepository;
 
     @Transactional
-    @CacheEvict(value = "restaurantsForVoting", allEntries = true)
+    @CacheEvict(value = "restaurantsWithMenu", allEntries = true)
     public MenuItem save(MenuItem menuItem, int restaurantId) {
         menuItem.setRestaurant(restaurantRepository.getReferenceById(restaurantId));
         return menuItemRepository.save(menuItem);

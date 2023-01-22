@@ -2,7 +2,6 @@ package com.github.elenafairest.lunchvoting.web.restaurant;
 
 import com.github.elenafairest.lunchvoting.model.Restaurant;
 import com.github.elenafairest.lunchvoting.web.MatcherFactory;
-import com.github.elenafairest.lunchvoting.web.menuItem.MenuItemTestData;
 
 import java.util.List;
 
